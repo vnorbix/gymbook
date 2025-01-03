@@ -6,7 +6,7 @@ steps:
   - deploy
   - function-1
   - --region=europe-central2
-  - --source=function-1/main.py
+  - --source=function-1
   - --trigger-http
   - --runtime=python312
 options:
