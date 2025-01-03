@@ -9,3 +9,5 @@ steps:
   - --source=function-1/main.py
   - --trigger-http
   - --runtime=python312
+options:
+ logging: CLOUD_LOGGING_ONLY
